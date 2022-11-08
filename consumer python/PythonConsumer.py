@@ -16,5 +16,6 @@ class Client:
     
 if __name__ == "__main__":
     client = Client()
-    client.connect_to_server("localhost", 4444, 0)
+    idQueue = int(input("Ingrese la cola a suscribirse: "))
+    client.connect_to_server("localhost", 4444, idQueue)
     client.run()
