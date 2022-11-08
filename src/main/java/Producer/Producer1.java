@@ -5,7 +5,7 @@ public class Producer1 {
         String[] idQueues = new String[1];
         idQueues[0] = "1";
 
-        javaClient client = new javaClient("192.168.1.18", 4444, idQueues);
+        JavaProducer client = new JavaProducer("192.168.1.18", 4444, idQueues);
         client.run();
     }
 }

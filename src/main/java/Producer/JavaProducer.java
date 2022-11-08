@@ -4,12 +4,12 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class javaClient {
+public class JavaProducer {
     Socket socket;
     BufferedReader inputSocket;
     PrintWriter writerSocket;
     Scanner scInput;
-    public javaClient(String hostname, int port, String[] idQueues) {
+    public JavaProducer(String hostname, int port, String[] idQueues) {
         try {
             socket = new Socket(hostname, port);
             writerSocket = new PrintWriter(socket.getOutputStream(), false);
