@@ -1,3 +1,1 @@
-# BattleChopper
-# Middleware
 # Middleware
