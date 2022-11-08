@@ -7,7 +7,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class ServerJava implements Runnable {
-    private String hostname = "localhost";
+    private String hostname = "192.168.1.18";
     private int port = 4444;
     private int n_producers = 0;
     private int n_consumers = 0;
